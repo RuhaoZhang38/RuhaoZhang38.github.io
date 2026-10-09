@@ -2,7 +2,7 @@
 
 网站地址：[https://zrh0308.github.io/](https://zrh0308.github.io/)
 
-这是一个无需构建工具的静态网站，通过 GitHub Pages 从 `main` 分支根目录发布。页面内容在 `index.html`，样式在 `styles.css`，头像为 `portrait.jpg`。
+这是一个无需构建工具的静态网站，通过 GitHub Pages 从 `main` 分支根目录发布。主页在 `index.html`，成果列表在 `publications.html`，样式在 `styles.css`，头像为 `portrait.jpg`。
 
 ## 更新网站
 
