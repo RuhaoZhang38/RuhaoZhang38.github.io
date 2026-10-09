@@ -30,6 +30,7 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
 .content h1{font-size:27px;line-height:1.3;color:#3b4043;margin:0 0 12px;font-weight:700}
 .content p{margin:0 0 20px}
 .content > p{text-indent:2em}
+html[lang="en"] .content > p,html[lang="en"] .content section > ul > li{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto}
 .content section{margin-top:60px}
 .content section h2{font-size:24px;line-height:1.35;color:#3b4043;margin:0 0 10px;font-weight:700}
 .content ul{margin:0;padding-left:39px}
@@ -69,3 +70,4 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
 }
 @media(max-width:390px){.topbar-inner{width:calc(100% - 28px)}.topbar-brand{font-size:14px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
