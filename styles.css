@@ -25,11 +25,11 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
 .content li{padding-left:1px;margin-bottom:10px}
 .content li::marker{color:#555}
 .content strong{font-weight:700;color:#42484b}
-.publication-list{list-style:none;margin:18px 0 0;padding:0}
-.publication{padding:0 0 20px;margin:0 0 21px;border-bottom:1px solid var(--line)}
-.publication .pub-year{display:block;color:var(--muted);font-size:13px;margin-bottom:3px}
-.publication h3{font-size:16px;line-height:1.5;font-weight:700;margin:0 0 4px;color:#44494c}
-.publication p{font-size:14px;color:var(--muted);margin:0;line-height:1.6}
+.publication-list{list-style:none;margin:10px 0 0;padding:0}
+.publication-list>.publication{display:grid;grid-template-columns:42px minmax(0,1fr);column-gap:12px;padding:0 0 10px;margin:0 0 11px;border-bottom:1px solid var(--line)}
+.publication .pub-year{display:block;color:var(--muted);font-size:12px;line-height:1.5;margin-top:2px}
+.publication h3{font-size:15px;line-height:1.4;font-weight:700;margin:0 0 2px;color:#44494c}
+.publication p{font-size:13px;color:var(--muted);margin:0;line-height:1.5}
 .site-footer{border-top:1px solid var(--line);color:#8a9194;font-size:12px;padding:21px 19px}
 .site-footer>div{width:min(1240px,100%);margin:auto}
 @media(max-width:760px){.page-shell{grid-template-columns:150px minmax(0,1fr);gap:30px}.profile img{width:135px;height:150px}.content h1{font-size:26px}.content section h2{font-size:23px}}
@@ -51,10 +51,9 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
   .content ul{padding-left:23px}
   .content li{margin-bottom:13px;line-height:1.75}
   .publication-list{margin-top:0}
-  .publication{padding-bottom:17px;margin-bottom:17px}
-  .publication .pub-year{font-size:13px}
-  .publication h3{font-size:15px;overflow-wrap:anywhere}
-  .publication p{font-size:13px;line-height:1.7}
+  .publication-list>.publication{grid-template-columns:37px minmax(0,1fr);column-gap:9px;padding-bottom:10px;margin-bottom:10px;line-height:1.5}
+  .publication h3{font-size:15px;overflow-wrap:break-word}
+  .publication p{font-size:13px;line-height:1.5;margin:0}
 }
 @media(max-width:390px){.topbar-inner{width:calc(100% - 28px)}.topbar-brand{font-size:14px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
