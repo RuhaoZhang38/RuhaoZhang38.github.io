@@ -57,8 +57,9 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
   .content li{margin-bottom:13px;line-height:1.75}
   .publication-list{margin-top:0}
   .publication{padding-bottom:17px;margin-bottom:17px}
+  .publication .pub-year{font-size:13px}
   .publication h3{font-size:15px;overflow-wrap:anywhere}
-  .publication p{font-size:12px;line-height:1.7}
+  .publication p{font-size:13px;line-height:1.7}
 }
 @media(max-width:390px){.topbar-inner{width:calc(100% - 28px);gap:9px}.topbar nav{gap:11px}.topbar nav a{font-size:12px}.topbar-brand{font-size:14px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
