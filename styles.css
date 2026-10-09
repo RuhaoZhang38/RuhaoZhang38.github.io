@@ -60,7 +60,7 @@ html[lang="en"] .content{text-align:justify;text-justify:inter-word;-webkit-hyph
   .content h1{font-size:25px;margin-bottom:17px}
   .content p{margin-bottom:19px;line-height:1.85}
   .content section{border-top:1px solid var(--line);padding-top:24px;margin-top:38px}
-  html[lang="en"] #publications,html[lang="en"] [aria-labelledby="projects-title"],html[lang="en"] [aria-labelledby="honors-title"]{text-align:left}
+  html[lang="en"] #publications,html[lang="en"] #publications *,html[lang="en"] [aria-labelledby="projects-title"],html[lang="en"] [aria-labelledby="projects-title"] *,html[lang="en"] [aria-labelledby="honors-title"],html[lang="en"] [aria-labelledby="honors-title"] *{text-align:left}
   .content section h2{font-size:21px;margin-bottom:14px}
   .content ul{padding-left:23px}
   .content li{margin-bottom:13px;line-height:1.75}
