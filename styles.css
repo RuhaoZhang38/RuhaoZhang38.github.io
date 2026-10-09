@@ -8,9 +8,13 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
 .skip-link{position:absolute;left:14px;top:-60px;background:#333;color:#fff;padding:7px 11px;z-index:10}
 .skip-link:focus{top:10px}
 .topbar{height:70px;border-bottom:1px solid var(--line)}
-.topbar-inner{width:min(1240px,calc(100% - 38px));height:100%;margin:auto;display:flex;align-items:center}
+.topbar-inner{width:min(1240px,calc(100% - 38px));height:100%;margin:auto;display:flex;align-items:center;justify-content:space-between}
 .topbar-brand{color:var(--text);text-decoration:none}
 .topbar-brand{font-weight:700;font-size:15px}
+.language-switch{display:flex;gap:6px;align-items:center}
+.language-switch a{min-width:38px;padding:4px 9px;border:1px solid var(--line);border-radius:5px;color:var(--muted);font-size:12px;line-height:1.5;text-align:center;text-decoration:none}
+.language-switch a:hover{color:var(--text);border-color:#b9c2c2}
+.language-switch a[aria-current="page"]{color:var(--text);background:#f3f5f4;font-weight:700}
 .page-shell{width:min(1240px,calc(100% - 38px));margin:34px auto 70px;display:grid;grid-template-columns:205px minmax(0,835px);gap:55px;align-items:start}
 .profile img{display:block;width:170px;height:190px;border:1px solid #f4f4f4;border-radius:50%;object-fit:cover;object-position:center 24%;margin-bottom:14px}
 .profile h2{font-size:16px;font-weight:700;margin:0 0 8px;color:#343a3d}
@@ -33,6 +37,7 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
 .content li::marker{color:#555}
 .content strong{font-weight:700;color:#42484b}
 .publication-list{list-style:none;margin:6px 0 0;padding:0}
+.translation-note{color:var(--muted);font-size:12px;margin:0 0 12px}
 .publication-list>.publication{display:grid;grid-template-columns:42px minmax(0,1fr);column-gap:12px;padding:0 0 8px;margin:0 0 8px;border-bottom:1px solid var(--line)}
 .publication .pub-year{display:block;color:var(--muted);font-size:12px;line-height:1.5;margin-top:2px}
 .publication h3{font-size:14px;line-height:1.4;font-weight:700;margin:0 0 2px;color:#44494c}
