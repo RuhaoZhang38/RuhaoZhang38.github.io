@@ -2,7 +2,7 @@
 
 网站地址：[https://ruhaozhang38.github.io/](https://ruhaozhang38.github.io/)
 
-这是一个无需构建工具的静态网站，通过 GitHub Pages 从 `main` 分支根目录发布。主页在 `index.html`，成果列表在 `publications.html`，样式在 `styles.css`，头像为 `portrait.jpg`。
+这是一个无需构建工具的静态网站，通过 GitHub Pages 从 `main` 分支根目录发布。中文主页在 `index.html`，完整英文版在 `en.html`，独立成果列表在 `publications.html`，样式在 `styles.css`，头像为 `portrait.jpg`。更新论文或履历时，请同步维护中英文主页。
 
 ## 更新网站
 
